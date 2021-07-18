@@ -4,12 +4,13 @@
   "description": "a nodejs application for developers to keep personal and public notes with markdown editor",
   "main": "app.js",
   "scripts": {
-    "start" : "cross-env NODE_ENV=production node app",
-    "dev" : "cross-env NODE_ENV=development nodemon app"
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "swapnil",
   "license": "ISC",
   "dependencies": {
+    "@ckeditor/ckeditor5-markdown-gfm": "^29.0.0",
     "connect-mongo": "^4.4.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
