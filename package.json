@@ -4,8 +4,7 @@
   "description": "a nodejs application for developers to keep personal and public notes with markdown editor",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
+    "start": "node app.js",
     "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "swapnil",
