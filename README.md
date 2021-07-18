@@ -18,9 +18,10 @@
 5. Materialize CSS framework
 6. Mongoose ORM
 7. JS ES6 syntax
-8. Express Handlebars for templating engine
-9. mongo-connect package for handling sessions to keep user logged in
-10.Heroku for deployment
+8. Particle.js for animated home screen
+9. Express Handlebars for templating engine
+10. mongo-connect package for handling sessions to keep user logged in
+11.Heroku for deployment
 
 
 ## Future Improvements:  
